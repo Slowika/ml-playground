@@ -1,4 +1,4 @@
-1. Sklearn doc
+# Sklearn doc
 
 Main idea: find a predefined number of training samples closest in distance to the new point,
 and predict the label from these
@@ -9,7 +9,7 @@ Supervised NN: class and reg
 K-Nearest Neighbor Learning and Radius-based Neighbor Learning
 
 Classification:
-- KNeighborsClassifier or RadiusNeighborsClassifier(might be better for a sparse data but the course of dimen)
+- `KNeighborsClassifier` or `RadiusNeighborsClassifier` (might be better for a sparse data but the course of dimen)
 - we can add weights for the neighbors based on eg. the distance
 
 example of a :
@@ -21,7 +21,7 @@ Sparse matrices -> Minkowski metrics
 
 Kernel density estimation relies on NN (not really according to Bishop)
 
-2. Bishop
+# Bishop
 
 Parametric - functions with parameters determined by the dataset
 Limitation: chosen density might be a poor model of the distribution which generates the data
@@ -43,7 +43,7 @@ K governs the degree of smoothing (too small: noise, too big: over-smooth)
 So far it was about NN density estimation which can be applied to classification by:
     applying NN de to every class and using Bayes theorem
 
-As a result: p(C_k | x) = K_k / K
+As a result: `p(C_k | x) = K_k / K`
 
 C_k - a class
 x - a point around which we make a sphere with K points and data-dependent radius
@@ -60,12 +60,12 @@ param are restricted by distributions
 we want to find a model which is both flexible in terms of dist and which complexity is independent of the dataset
 how? the next chapters
 
-3. Introduction to Machine Learning by Alex Smola
+# Introduction to Machine Learning by Alex Smola
 
-#TODO
+```# TODO```
 
-4. The Elements of Statistical Learning
+# The Elements of Statistical Learning
 
-#TODO
+```# TODO```
 
-5. https://ashokharnal.wordpress.com/tag/kneighborsclassifier-explained/
+[https://ashokharnal.wordpress.com/tag/kneighborsclassifier-explained/](https://ashokharnal.wordpress.com/tag/kneighborsclassifier-explained/)
